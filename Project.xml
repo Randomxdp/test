@@ -111,10 +111,11 @@
 		NOT USING A DIRECT THING TO THE ASSET!!!
 	-->
 	<assets path="assets/fonts" embed='true'/>
-	<!-- _______________________________ Libraries ______________________________ -->
 	<!-- Akways enable Null Object Reference check -->
-	<haxedef name="HXCPP_CHECK_POINTER" if="release" />
-	<haxedef name="HXCPP_STACK_LINE" if="release" />
+        <haxedef name="HXCPP_CHECK_POINTER" if="release" />
+        <haxedef name="HXCPP_STACK_LINE" if="release" />
+	<!-- _______________________________ Libraries ______________________________ -->
+	
 	<haxelib name="flixel" />
 	<haxedev set='webgl' />
 
